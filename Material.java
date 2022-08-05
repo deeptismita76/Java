@@ -1,0 +1,4 @@
+enum Material{
+	
+	FIBER,WOOD,GLASS,PLYWOOD,ALUMINIUM;
+}
