@@ -1,3 +1,0 @@
-enum Color{
-	BLACK,GREEN,PINK,NAVYBLUE,SILVER;
-}
