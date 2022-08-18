@@ -21,6 +21,7 @@ public class Alcohol {
 		System.out.println(this.color);
 		for (int index = 0; index < this.ingredients.length; index++) {
 			System.out.print(this.ingredients[index]);
+			
 			if(index >= 0 && index <= this.ingredients.length-2 ) {
 				System.out.print(",");
 			}
