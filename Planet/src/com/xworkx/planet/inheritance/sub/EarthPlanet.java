@@ -20,12 +20,13 @@ public class EarthPlanet extends Planet {
 	}
 	public void torisu() {
 		
-		System.out.println(this.habitant);
-		System.out.println(this.disFromSun);
-		System.out.println(this.noOfContinent);
 		System.out.println(super.name);
 		System.out.println(super.orbit);
 		System.out.println(super.radius);
+		System.out.println(this.habitant);
+		System.out.println(this.disFromSun);
+		System.out.println(this.noOfContinent);
+		
 
 	}
 }
