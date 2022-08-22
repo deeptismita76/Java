@@ -14,10 +14,11 @@ public class MarketMukhya {
 
 		Market market2 = new SuperMarket("super market", 9.30, 23.30, "relaience fresh", "BTM", 20);
 		market2.display();
+		
 		System.out.println("***************");
 		SuperMarket superMarket = new SuperMarket("SUPER MARKET", 8.30, 21.30, "Maitry", "BTM", 50);
 		superMarket.display();
-
+		System.out.println("***************");
 		Market market3 = new OnlineSuperMarket("Super Market", 7.30, 23.30, "MORE", "BTM", 90, "Dunzo", "Metro Cities",
 				20);
 		market3.display();
