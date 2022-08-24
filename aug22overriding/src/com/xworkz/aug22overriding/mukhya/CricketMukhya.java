@@ -1,8 +1,7 @@
 package com.xworkz.aug22overriding.mukhya;
 
-import com.xworkz.aug22overriding.sub.OneDayCricket;
-import com.xworkz.aug22overriding.sub.T20Cricket;
-import com.xworkz.aug22overriding.sub.TestCricket;
+import com.xworkz.aug22overriding.sub.*;
+
 import com.xworkz.aug22overriding.sup.Cricket;
 
 public class CricketMukhya {
@@ -38,7 +37,6 @@ public class CricketMukhya {
 		if(cricket1 instanceof TestCricket) {
 			TestCricket convo = (TestCricket)cricket1;
 			convo.setGroundType("green pitch");
-			convo.printData();
 		}
 		cricket1.printData();
 		ref = cricket1.entertainment("test match");
@@ -85,7 +83,7 @@ public class CricketMukhya {
 		cricket5.setCountry("India");
 		cricket5.setCaptain("Virat Kohli");
 		cricket5.setAge(33);
-		cricket.printData();
+		cricket5.printData();
 		boolean bool = cricket5.entertainment("test match");
 		System.out.println(bool);
 		if(cricket5 instanceof T20Cricket) {
