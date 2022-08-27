@@ -9,6 +9,7 @@ public class ObjectMukhya {
 		Fish fish = new Fish("Gold Fish","Fresh Water");
 		Fish fish2 = new Fish("Gold Fish","Fresh Water");
 		fish.equals(fish2);
+		System.out.println(fish);
 	}
 
 }
