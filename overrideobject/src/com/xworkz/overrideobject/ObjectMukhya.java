@@ -7,7 +7,7 @@ public class ObjectMukhya {
 	public static void main(String[] args) {
 
 		Fish fish = new Fish("Gold Fish","Fresh Water");
-		Fish  fish2 = new Fish("Gold Fish","Fresh Water");
+		Fish fish2 = new Fish("GoldFish","Fresh Water");
 		fish.equals(fish2);
 		
 		System.out.println(fish);

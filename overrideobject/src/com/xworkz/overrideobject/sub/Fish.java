@@ -22,6 +22,9 @@ public class Fish {
 				if(breed.equals(convertedBreed) && type.equals(convertedType)) {
 					System.out.println("matched.");
 				}
+				else {
+					System.err.println("not matched");
+				}
 			}
 		}
 		return super.equals(obj);
