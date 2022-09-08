@@ -17,7 +17,13 @@ public class LakeMukhya {
 		implementor.save("Indira Sagar");
 		implementor.save("pangong");
 		implementor.save("pulicat");
-
+		implementor.printAllLakes();
+		System.out.println();
+		implementor.deleteByIndex(5);
+		implementor.updateByIndex(3, "BTM Lake");
+		implementor.printAllLakes();
+		System.out.println();
+		implementor.updateByName("wular", "Agara Lake");
 		implementor.printAllLakes();
 	}
 
