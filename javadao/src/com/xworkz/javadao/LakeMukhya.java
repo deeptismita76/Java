@@ -25,6 +25,9 @@ public class LakeMukhya {
 		System.out.println();
 		implementor.updateByName("wular", "Agara Lake");
 		implementor.printAllLakes();
+		System.out.println();
+		implementor.deleteByName("pulicat");
+		implementor.printAllLakes();
 	}
 
 }
