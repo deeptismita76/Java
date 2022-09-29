@@ -24,7 +24,8 @@ public class PrimiMinisterMukhya {
 		service.verifyAndStore("Naren");
 		}
 		catch(NoSuchNameException nsn) {
-			System.out.println("NoSuchName handled");
+			//System.out.println("NoSuchName handled");
+			System.err.println(nsn.getMessage());
 		}
 		catch(LimitExceedException lee) {	
 		//	System.out.println("LimitExceedException handled");
