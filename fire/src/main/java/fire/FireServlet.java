@@ -16,7 +16,6 @@ public class FireServlet extends HttpServlet {
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html");
 		PrintWriter wrt = resp.getWriter();
-		wrt.
 	}
 
 }
